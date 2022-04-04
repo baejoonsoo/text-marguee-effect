@@ -44,4 +44,9 @@ const animate = () => {
   window.requestAnimationFrame(animate);
 };
 
+window.addEventListener("scroll", () => {
+  count1 += 15;
+  count2 += 15;
+});
+
 animate();
